@@ -15,7 +15,7 @@ const VideoUploadSection = ({ setResult, scrollToRef }) => {
 
     try {
       setLoading(true);
-      const res = await axios.post("http://localhost:8000/api/upload", formData);
+      const res = await axios.post("https://video-transcription-and-summarization.onrender.com/api/upload", formData);
       setResult(res.data);
       setRequestComplete(true);
     } catch (error) {
