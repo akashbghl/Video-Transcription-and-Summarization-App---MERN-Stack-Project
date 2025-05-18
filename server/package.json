@@ -12,7 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/genai": "^0.14.1",
@@ -28,6 +27,8 @@
     "openai": "^4.100.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+    "nodemon": "^3.1.10",
+    "vite": "^6.3.5"
+  },
+  "description": ""
 }
