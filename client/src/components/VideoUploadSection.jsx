@@ -28,7 +28,7 @@ const VideoUploadSection = ({ setResult, scrollToRef }) => {
 
   return (
     <section
-      className="w-full h-158 flex items-center justify-center px-4 py-20"
+      className="w-full h-screen flex items-center justify-center px-4 py-20"
       id="upload"
     >
       <div className="bg-white rounded-2xl shadow-lg p-10 max-w-xl w-full text-center">
